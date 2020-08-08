@@ -301,7 +301,7 @@ story = {
 "rect_size": Vector2( 324, 137 ),
 "slot_amount": 1,
 "text": "<speaker>Emi-chan</speaker>
-<dialog>Hey everyone! Let's have a Sea Day party!</dialog>
+<dialog>Hey everyone! Let's have a [rainbow]Sea Day party![/rainbow]</dialog>
 <image>emi</image>",
 "type": "line"
 },

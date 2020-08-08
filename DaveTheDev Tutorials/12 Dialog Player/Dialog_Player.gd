@@ -160,7 +160,7 @@ func _play_node():
 		_display_image(library_key)
 	
 	_Speaker_LBL.text = speaker
-	_Body_LBL.text = dialog
+	_Body_LBL.bbcode_text = dialog
 	_Body_AnimationPlayer.play("TextDisplay")
 
 

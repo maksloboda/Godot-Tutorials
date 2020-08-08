@@ -107,15 +107,15 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Body_Label" type="Label" parent="Dialog_Box/Body_NinePatchRect/MarginContainer"]
+[node name="Body_Label" type="RichTextLabel" parent="Dialog_Box/Body_NinePatchRect/MarginContainer"]
 margin_right = 688.0
 margin_bottom = 160.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-custom_fonts/font = SubResource( 1 )
-text = "This is where the body of the dialog text goes.
-Press F6 to play! ^_^"
-autowrap = true
+custom_fonts/normal_font = SubResource( 1 )
+bbcode_enabled = true
+visible_characters = 0
+percent_visible = 0.0
 
 [node name="Body_AnimationPlayer" type="AnimationPlayer" parent="Dialog_Box/Body_NinePatchRect/MarginContainer/Body_Label"]
 anims/TextDisplay = SubResource( 2 )
